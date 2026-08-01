@@ -1,8 +1,11 @@
 aid: route
 name: Route
-description: 'Route is a company surfaced as a portfolio company of craft-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Route is a post-purchase platform for e-commerce brands that helps merchants
+  own the customer experience after checkout. Its core products are package protection
+  (shipping insurance covering lost, stolen, or damaged orders), AI-driven returns that
+  reduce refunds and returns fraud, and real-time order and package tracking for shoppers.
+  Route serves both merchants and their customers through storefront widgets, a mobile
+  app, and a developer API documented on Stoplight. The company is backed by Craft Ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/route/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +13,31 @@ x-backed-by:
 - craft-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.route.com/route-og.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Saas
+- SaaS
+- E-commerce
+- Shipping
+- Package Tracking
+- Shipping Protection
+- Returns
+- Post-Purchase
+- Logistics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://route.com
+- type: DeveloperPortal
+  url: https://docs.route.com
+- type: Documentation
+  url: https://docs.route.com
+- type: APIReference
+  url: https://docs.route.com
+- type: Support
+  url: https://help.route.com
+- type: Pricing
+  url: https://route.com/pricing
+- type: PrivacyPolicy
+  url: https://route.com/privacy
+- type: LLMsTxt
+  url: llms/route-llms.txt
+- type: DomainSecurity
+  url: security/route-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
