@@ -16,3 +16,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: route-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: IT and HR
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.zendesk.com/marketplace/apps/support/985751/route/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
